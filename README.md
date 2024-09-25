@@ -19,6 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
+<<<<<<< HEAD
 ```
 admin.py 
 from django.contrib import admin
@@ -35,14 +36,22 @@ class Bank(models.Model):
     loan_amount = models.DecimalField(max_digits=10, decimal_places=2)  
     monthly_interest = models.DecimalField(max_digits=5, decimal_places=2)  
     due_date = models.DateField()
+=======
 
-class Loandetails(admin.ModelAdmin):
-    list_display= ('customer_id','customer_name','account_type','loan_amount','monthly_interest','due_date')
+>>>>>>> cd20404e88c7234b96d3c29eb8302334ff268773
 
+
+<<<<<<< HEAD
 
 ```
+=======
+>>>>>>> cd20404e88c7234b96d3c29eb8302334ff268773
 ## OUTPUT
 ![alt text](<Screenshot (471).png>)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> cd20404e88c7234b96d3c29eb8302334ff268773
 
 Thus the program for creating a database using ORM hass been executed successfully
